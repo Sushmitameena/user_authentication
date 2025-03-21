@@ -1,4 +1,4 @@
-# user_authentication
+
 
 # JWT Authentication API with Role-Based Access
 # This project is a Node.js REST API with JWT-based authentication, password hashing using bcrypt, and role-based access control (RBAC). It allows users to register, log in, and access protected routes based on their roles (user or admin).
