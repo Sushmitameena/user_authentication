@@ -34,11 +34,12 @@
 git clone https://github.com/Sushmitameena/user_authentication
 cd <repository_folder>
 
-2️. Install Dependencies
+2️. Install Dependencies--
 npm install
 
 3.Configure Environment Variables
 Create a .env file in the root folder with the following content:
+
 MONGO_URI=mongodb://localhost:27017/authDB
 JWT_SECRET=supersecretkey
 PORT=5000
@@ -54,6 +55,7 @@ http://localhost:5000
 # API Endpoints
 1️. User Registration
 Creates a new user with the specified role (user by default or admin)
+
 Endpoint:POST /api/auth/register
 
 Request Body:
@@ -117,6 +119,7 @@ Response:
 }
 
 # Getting an Admin JWT Token
+
 1.Register an Admin User
 To generate an admin token, first, register an admin account:
 POST /api/auth/register
