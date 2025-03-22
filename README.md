@@ -37,7 +37,7 @@ cd <repository_folder>
 2️. Install Dependencies--
 npm install
 
-3.Configure Environment Variables
+3.Configure Environment Variables---
 Create a .env file in the root folder with the following content:
 
 MONGO_URI=mongodb://localhost:27017/authDB
